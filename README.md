@@ -1,9 +1,27 @@
 # TIL
 Coding concepts that I learn everyday
+# 08/27/20 Thursday
+Today I learned how to make an environment variable in my shell configuration file
+This is how you do it...
 
-# 08/24/20 Wednesday
+Open the shell configuration file
+```
+code ~/.bash_profile
+```
+Make an environment variable
+```
+export OPEN_WEATHER_API_KEY=____
+```
+Restart your terminal
 
-# 08/24/20 Tuesday
+Modify the script to use the ENV hash
+```
+response = HTTP.get("https://api.openweathermap.org/data/2.5/weather?q=chicago&units=imperial&APPID=#{ENV["OPEN_WEATHER_API_KEY"]}")
+```
+
+# 08/26/20 Wednesday
+
+# 08/25/20 Tuesday
 
 # 08/24/20 Monday
 Today I learned about the the built in array object method "include?"

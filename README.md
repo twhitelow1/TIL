@@ -10,13 +10,14 @@ code ~/.bash_profile
 ```
 Make an environment variable
 ```
-export OPEN_WEATHER_API_KEY=____
+export API_KEY = insert_api_key
 ```
 Restart your terminal
 
 Modify the script to use the ENV hash
 ```
-response = HTTP.get("https://api.openweathermap.org/data/2.5/weather?q=chicago&units=imperial&APPID=#{ENV["OPEN_WEATHER_API_KEY"]}")
+puts ENV["API_KEY"]
+>> insert_api_key
 ```
 
 # 08/26/20 Wednesday

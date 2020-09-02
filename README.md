@@ -1,5 +1,7 @@
 # TIL
 Coding concepts that I learn everyday
+# 09/01/2020
+
 # 08/30/20 Sunday
 I think I solved a lot of my social icon issues from now on. There is this awesome CDN called fontawesome and they have text based icons that can be easily placed with an italics html tag!
 

@@ -9,8 +9,8 @@ update(edit) a record, and delete a record. Here is how we do it in ruby.
 
 CREATE new items using your model:
 ```ruby
-		my_book = ComicBook.new({title: "Watchmen", price: 15})
-		my_book.save
+my_book = ComicBook.new({title: "Watchmen", price: 15})
+my_book.save
 ```
 READ existing items using your model:
 ```ruby
